@@ -16,7 +16,7 @@ function showSlides(n){
     slides[slideIndex1-1].style.display ="block";
   
 }
-showSlides(slideIndex);
+showSlides(slideIndex1);
 
 function plusSlide(n){
     showSlides(slideIndex = slideIndex+n);
