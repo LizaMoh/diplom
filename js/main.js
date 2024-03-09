@@ -143,7 +143,7 @@ setClock('.countdown',timeEnd);
 
 }
 //tab
-if(document.querySelector('taberr')){
+if(document.querySelector('.taberr')){
     const tabs1 = document.querySelectorAll('.taberr');
     const tabContent1 = document.querySelectorAll('.tab-content');
     const tabParent1 = document.querySelector('.hero-menu_content');
@@ -176,3 +176,4 @@ if(document.querySelector('taberr')){
     });
     console.log(tabContent1);
 }
+
